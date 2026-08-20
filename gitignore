@@ -1,0 +1,49 @@
+# ============================================================
+#  .gitignore — Assistant Pedagogique_TSAPBENG_2027
+#  Ce fichier dit à GitHub QUOI NE PAS PARTAGER.
+#  Placez-le à la racine du dossier du projet.
+# ============================================================
+
+# --- 🔑 SECRETS : ne JAMAIS partager vos clés ---
+cles_api.txt
+.env
+*.key
+secrets.*
+
+# --- 👥 Données personnelles / comptes ---
+utilisateurs.json
+ma_photo.*
+photo.*
+logo.png
+
+# --- 🧠 Index et mémoire de la bibliothèque (lourds, se régénèrent) ---
+faiss_index/
+faiss_index_fast/
+bibliotheque_manifest.json
+bibliotheque_manifest_fast.json
+
+# --- 📚 Vos documents sources (souvent volumineux ou confidentiels) ---
+ma_bibliotheque/
+
+# --- 📄 Fichiers générés par l'application ---
+cours_genere.docx
+activite.docx
+TP.docx
+simulation.docx
+banque_de_questions.docx
+support.pptx
+fiche_revision.docx
+*.tmp
+
+# --- 🐍 Fichiers techniques Python / Jupyter ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# --- 💻 Fichiers système ---
+.DS_Store
+Thumbs.db
+desktop.ini
